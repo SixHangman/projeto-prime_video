@@ -1,26 +1,34 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>login</title>
-    <link rel="stylesheet" href="../css/form.css">
+    <title>Document</title>
 </head>
 <body>
-    <form class="form" action="">
-        <img class="logo" src="../img/logo-black.svg" alt="logo Amazon">
+    <label>Nome:</label>
+    <input type="text" name="nome" required><br><br>
 
-        <label>Email:</label>
-        <input type="email" name="email" placeholder="email" required>
+    <label>Senha:</label>
+    <input type="password" name="senha"> required><br><br>
 
-        <label>Senha:</label>
-        <input type="password" name="senha" placeholder="senha" required>
+    <label>digite sua escolha</label>
+    <select name="select">
+        <option value="valor">escolha A</option>
+        <option value="valor">escolha B</option>
+        <option value="valor">escolha C</option>
+    </select><br><br>
 
-        <div class="criar"><a href="cadastro.html">Criar conta</a></div>
-        <input type="submit" value="Entrar">
-    </form>
+    <label>Observaaççoes:</label><br>
+    <textarea name="obs" cols="30" rows="10"></textarea><br><br>
+
+    <input type="submit" value="enviar">
+
+    <ul>
+        <li class="user">
+            <a href="src/login.html"><i class="fa-solid fa-user fa-1x"></i></a>
+            </li>
+    </ul>
 </body>
 </html>
-
-
